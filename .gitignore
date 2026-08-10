@@ -21,3 +21,6 @@ Thumbs.db
 
 # Uploaded media
 server/uploads/
+
+# Database backup
+*.dump
