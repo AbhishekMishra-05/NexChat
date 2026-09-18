@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with the base URL of our Spring Boot server
 const api = axios.create({
-  baseURL: 'http://localhost:8081',
+  baseURL: 'https://nexchat-wbp0.onrender.com',
 });
 
 // This interceptor runs before every request is sent

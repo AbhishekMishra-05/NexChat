@@ -17,7 +17,7 @@ const useSocket = () => {
 
     const client = new Client({
       webSocketFactory: () =>
-        new SockJS('http://localhost:8081/ws'),
+        new SockJS('https://nexchat-wbp0.onrender.com/ws'),
       connectHeaders: {
         Authorization: `Bearer ${token}`,
       },

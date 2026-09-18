@@ -80,7 +80,7 @@ return () => {
   useEffect(() => {
     if (!token || !user) return;
     const client = new Client({
-      webSocketFactory: () => new SockJS("http://localhost:8081/ws"),
+      webSocketFactory: () => new SockJS("https://nexchat-wbp0.onrender.com/ws"),
       connectHeaders: { Authorization: `Bearer ${token}` },
       reconnectDelay: 5000,
       onConnect: () => {
